@@ -1,0 +1,15 @@
+# datos pesados o de terceros: se bajan según datos/README.md
+datos/*
+!datos/README.md
+!datos/proc/
+datos/proc/*
+!datos/proc/resultados_etapa1.csv
+# entorno, caches y capturas personales
+.venv/
+__pycache__/
+*.pyc
+*.parquet
+*.npy
+*.zip
+WhatsApp Image*.jpeg
+.env
